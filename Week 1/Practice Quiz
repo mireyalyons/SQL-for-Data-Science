@@ -7,7 +7,7 @@
   FROM tracks
   
 It lists too many columns
-**It's missing comma after "TrackID", and "Name"**
+__It's missing comma after "TrackID", and "Name"__
 It doesn't state where to get the data from 
 
 
