@@ -405,8 +405,10 @@ Ideas for analysis include: Parsing out keywords and business attributes for sen
   In the case of opening a new restaurant, an owner would want to know as much information about the potential competition they may have in the area. 
   A new owner would be able to infer what factors could affect the business. The types of foods served, how many restaurants, cities, average stars, and average review counts all influence the decision making. 
   Observing the types of food is served at these restaurants, number of restaurants in each category, and the cities they tend to be located in are all important. 
-  This information will help decide what food will be served and where the restaurant will be located. Observing the average stars and average reviews for each category gives an entrepreneur the opportunity to look further into each group individually. 
-  They may be able to determine what the popular restaurants are doing differently than the less popular groups. It may have been helpful to determine what the average operating hours are for each category, but there was not data with that information in this dataset. 
+  This information will help decide what food will be served and where the restaurant will be located.
+  Observing the average stars and average reviews for each category gives an entrepreneur the opportunity to look further into each group individually. 
+  They may be able to determine what the popular restaurants are doing differently than the less popular groups. 
+  It may have been helpful to determine what the average operating hours are for each category, but there was not data with that information in this dataset. 
   
   iii. Output of your finished dataset:
          
