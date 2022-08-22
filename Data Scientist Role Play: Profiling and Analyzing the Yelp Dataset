@@ -223,7 +223,7 @@ Part 1: Yelp Dataset Profiling and Understanding
 8. Does posing more reviews correlate with more fans?
   Please explain your findings and interpretation of the results:
 	
-	Posing more reviews does not correlate with more fans.
+  Posing more reviews does not correlate with more fans.
   Looking at the table below, we can see that while the number of fans widely varies, most of the users have a similar number of reviews.
 
   SELECT name,
@@ -252,7 +252,7 @@ Part 1: Yelp Dataset Profiling and Understanding
 
   Answer: There are more reviews with the word "love" (1780 reviews) than with the word "hate" (232 reviews).
 
-	SQL code used to arrive at answer:
+  SQL code used to arrive at answer:
 
   SELECT COUNT(text)
   FROM review
@@ -319,9 +319,9 @@ Compare the businesses with 2-3 stars to the businesses with 4-5 stars and answe
   iii. Are you able to infer anything from the location data provided between these two groups? Explain.
   
   Solely basing inferences on observation of the data given, I can infer that location of the business affects a yelp rating. 
-	The query returned three businesses, one of which indicates it is located in the Eastside neighborhood of Las Vegas.
-	While this business has more operating hours than the other two, it has less reviews and lower rating, location may be a factor. 
-	The sample size of this data is too small to make any conlusions. 
+  The query returned three businesses, one of which indicates it is located in the Eastside neighborhood of Las Vegas.
+  While this business has more operating hours than the other two, it has less reviews and lower rating, location may be a factor. 
+  The sample size of this data is too small to make any conlusions. 
 
   SQL code used for analysis:
 
@@ -371,11 +371,11 @@ Compare the businesses with 2-3 stars to the businesses with 4-5 stars and answe
 		
   i. Difference 1:
 
-	The businesses that are open have a higher average star rating (3.68 stars) than the businesses that are closed (3.52 stars).
+  The businesses that are open have a higher average star rating (3.68 stars) than the businesses that are closed (3.52 stars).
          
   ii. Difference 2:
 
-   The businesses that are open have a higher average number of reviews (31 reviews/business) than the businesses that are closed (23 reviews/business).
+  The businesses that are open have a higher average number of reviews (31 reviews/business) than the businesses that are closed (23 reviews/business).
   
   SQL code used for analysis:
 
@@ -398,13 +398,15 @@ Ideas for analysis include: Parsing out keywords and business attributes for sen
 	
   i. Indicate the type of analysis you chose to do:
          
-	I would like to determine what kind of restaurants are popular. 
+  I would like to determine what kind of restaurants are popular. 
   
   ii. Write 1-2 brief paragraphs on the type of data you will need for your analysis and why you chose that data:
                   
   In the case of opening a new restaurant, an owner would want to know as much information about the potential competition they may have in the area. 
-  A new owner would be able to infer what factors could affect the business. The types of foods served, how many restaurants, cities, average stars, and average review   counts all influence the decision making. Observing the types of food is served at these restaurants, number of restaurants in each category, and the cities they tend to be located in are all important. 
-  This information will help decide what food will be served and where the restaurant will be located. Observing the average stars and average reviews for each     category gives an entrepreneur the opportunity to look further into each group individually. They may be able to determine what the popular restaurants are doing differently than the less popular groups. It may have been helpful to determine what the average operating hours are for each category, but there was not data with that information in this dataset. 
+  A new owner would be able to infer what factors could affect the business. The types of foods served, how many restaurants, cities, average stars, and average review counts all influence the decision making. 
+  Observing the types of food is served at these restaurants, number of restaurants in each category, and the cities they tend to be located in are all important. 
+  This information will help decide what food will be served and where the restaurant will be located. Observing the average stars and average reviews for each category gives an entrepreneur the opportunity to look further into each group individually. 
+  They may be able to determine what the popular restaurants are doing differently than the less popular groups. It may have been helpful to determine what the average operating hours are for each category, but there was not data with that information in this dataset. 
   
   iii. Output of your finished dataset:
          
